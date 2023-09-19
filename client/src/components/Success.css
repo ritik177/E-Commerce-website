@@ -1,0 +1,15 @@
+
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% of viewport height to center vertically */
+  }
+  
+  .responsive-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    width: auto\9; /* IE8 compatibility */
+  }
+  
